@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Students Interests Survey </title>
+</head>
+<body>
+	<!-- as it is a survey form, we will need to submit the details, hence we use form -->
+<!-- We can give absolute url, or relative url like /nextpage.jsp, and specify POST or GET method -->
+
+<form action="https://www.google.com/">
+<div align="center">
+<!--- Adds Heading To the Form--->	
+<h1> Students Interests Survey Form </h1>
+Enter Your Name :
+<input type="text" name="Username" size=35 maxlength=35 value="">
+<!-- br is used to leave some space--->
+<br><br>
+Name of the College :
+<input type="College" name="Collegename" size=35 maxlength=35 value="">
+<br><br>
+Name of the Department :
+<input type="Depp" name="Deppname" size=35 maxlength=35 value="">
+<br><br>
+Something About yourself:
+<textarea name="Comments" cols=30 rows=4> </textarea>
+<br><br>
+Do you Read Books at home :
+<!-- Radio buttons help you choose one out of the many values -->
+<input type="radio" name="exe" value=1>Yes
+<input type="radio" name="exe" value=1>No
+<br><br>
+What type of Genre you like to read :
+<!--Select box lets you choose one of the multiple dropdown options-->
+<select name="Genrepref"> <option>
+<option value=1 selected="true">Romance	
+<option value=2>Self-Help
+<option value=3>Fiction
+<option value=4>Thriller
+<option value=5>Fantasy
+<br><br>	
+</option>
+</select>
+<br> <br>
+<!--submits the information entered in the form by the user -->
+<input type=submit value="Submit form">
+
+</div>
+</form>
+
+</body>
+</html>	
